@@ -1,0 +1,47 @@
+:root {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Hover underline effect for nav and footer links */
+.nav-link {
+  position: relative;
+  padding-bottom: 4px;
+}
+.nav-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background: linear-gradient(to right, #0ea5e9, #9333ea); /* sky to purple */
+  transition: width 0.3s ease;
+  border-radius: 9999px;
+}
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* Marquee animation for skills */
+.animate-marquee {
+  display: flex;
+  animation: marquee 30s linear infinite;
+}
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+/* Glowing card shadow */
+.glow-card {
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.6);
+}
+/* Gradient top border for footer */
+footer::before {
+  content: '';
+  display: block;
+  height: 4px;
+  width: 100%;
+  background: linear-gradient(to right, #0ea5e9, #9333ea, #ec4899); /* sky → purple → pink */
+}
+
