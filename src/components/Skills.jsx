@@ -16,19 +16,19 @@ const skills = [
 
 const Skills = () => {
   return (
-    <section id="skills" className="py-12 bg-[#0a1a2a] overflow-hidden">
+    <section id="skills" className="py-12 bg-[#0a1a2a] overflow-hidden snap-start">
       {/* Section Title */}
       <h2 className="text-3xl md:text-4xl font-extrabold mb-10 text-center text-transparent bg-clip-text bg-linear-to-r from-sky-400 via-purple-500 to-pink-500">
         Skills
       </h2>
 
       {/* Marquee Container */}
-      <div className="cursor-pointer relative w-full overflow-hidden">
-        <div className="flex w-max animate-marquee gap-8">
+      <div className="max-w-6xl mx-auto overflow-hidden">
+        <div className="flex w-max animate-[scroll_20s_linear_infinite] gap-8">
           {[...skills, ...skills].map((skill, index) => (
             <motion.div
               key={index}
-              className="flex flex-col items-center justify-center min-w-[120px] p-4 rounded-2xl bg-[#112233] shadow-lg backdrop-blur-md hover:scale-105 transition-transform duration-500 hover:shadow-[0_0_20px_rgba(56,189,248,0.6)]"
+              className="flex flex-col items-center justify-center min-w-[120px] p-4 rounded-2xl bg-[#112233] shadow-lg backdrop-blur-md hover:scale-105 transition-transform duration-500 hover:shadow-[0_0_20px_rgba(56,189,248,0.6)] cursor-pointer"
               whileHover={{ scale: 1.08 }}
             >
               {skill.icon}

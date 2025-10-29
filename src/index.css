@@ -44,4 +44,9 @@ footer::before {
   width: 100%;
   background: linear-gradient(to right, #0ea5e9, #9333ea, #ec4899); /* sky → purple → pink */
 }
+/* For Skills icon smooth rolling */
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
 
