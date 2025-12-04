@@ -12,10 +12,7 @@ const Contact = () => {
     e.preventDefault()
 
     emailjs.sendForm(
-      'service_qhjc81w',      // ✅ Your EmailJS service ID
-      'template_dtcsl71',     // ✅ Your EmailJS template ID
-      formRef.current,
-      '168fienQygeV1wIck'     // ✅ Your EmailJS public key
+           // ✅ Your EmailJS public key
     ).then(() => {
       setShowPopup(true)
       formRef.current.reset()
