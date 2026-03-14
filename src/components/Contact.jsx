@@ -90,7 +90,7 @@ const Contact = () => {
           {/* Social Icons */}
           <div className="mt-4 flex gap-6">
             <a
-              href="https://github.com/"
+              href="https://github.com/Noman53"
               target="_blank"
               rel="noreferrer"
               className="text-white hover:text-blue-400 transition-colors text-2xl"
@@ -98,7 +98,7 @@ const Contact = () => {
               <FaGithub />
             </a>
             <a
-              href="https://linkedin.com/"
+              href="https://www.linkedin.com/in/noman1997"
               target="_blank"
               rel="noreferrer"
               className="text-white hover:text-blue-600 transition-colors text-2xl"
