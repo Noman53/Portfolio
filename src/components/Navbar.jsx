@@ -48,7 +48,7 @@ const Navbar = () => {
         {/* Social Icons */}
         <div className="flex items-center gap-4">
           <a
-            href="https://github.com/"
+            href="https://github.com/Noman53"
             target="_blank"
             rel="noreferrer"
             className="hidden md:inline-block text-white hover:text-blue-400"
@@ -56,7 +56,7 @@ const Navbar = () => {
             <FaGithub size={18} />
           </a>
           <a
-            href="https://linkedin.com/"
+            href="https://www.linkedin.com/in/noman1997/"
             target="_blank"
             rel="noreferrer"
             className="hidden md:inline-block text-white hover:text-blue-400"
