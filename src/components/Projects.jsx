@@ -9,16 +9,16 @@ const projects = [
     description: 'A modern personal portfolio built with React and Tailwind CSS showcasing my projects and skills.',
     tech: ['React', 'Tailwind', 'Framer Motion'],
     image: '/project-1.jpg',
-    github: 'https://github.com/',
-    live: 'https://example.com'
+    github: 'https://github.com/Noman53/Portfolio',
+    live: 'https://devnoman-portfolio.vercel.app/'
   },
   {
-    title: 'E-Commerce App',
-    description: 'Full-featured e-commerce application with product filters, dynamic cart, and payment gateway.',
-    tech: ['React', 'Node.js', 'Express'],
-    image: '/project-1.jpg',
-    github: 'https://github.com/',
-    live: 'https://example.com'
+    title: 'E-Commerce Web App',
+    description: 'ShoplanBD is an e-commerce demo application built with Vite, React, TypeScript, Tailwind CSS, and Supabase.Full-featured e-commerce application with product filters, dynamic cart, and payment gateway.',
+    tech: ['React', 'TypeScript', 'Tailwind', 'Supabase'],
+    image: '/project-2.jpg',
+    github: 'https://github.com/Noman53/Shop-Land-BD',
+    live: 'https://shoplandbd.vercel.app/'
   },
   {
     title: 'Chat Application',
