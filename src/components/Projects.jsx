@@ -21,18 +21,18 @@ const projects = [
     live: 'https://shoplandbd.vercel.app/'
   },
   {
-    title: 'Chat Application',
-    description: 'Real-time chat app with Socket.io and Node.js enabling instant communication between users.',
-    tech: ['Socket.io', 'Node.js', 'MongoDB'],
+    title: 'E-Commerce Web App',
+    description: 'Full-featured e-commerce application with product filters, dynamic cart, and payment gateway.',
+    tech: ['React', 'JavaScript', 'Tailwind',],
     image: '/project-3.jpg',
-    github: 'https://github.com/',
-    live: 'https://example.com'
+    github: 'https://github.com/Noman53/Orebi_E-com',
+    live: 'https://orebi-e-com.vercel.app/'
   },
   {
     title: 'E-Commerce App',
     description: 'Full-featured e-commerce application with product filters, dynamic cart, and payment gateway.',
     tech: ['React', 'Node.js', 'Express'],
-    image: '/project-1.jpg',
+    image: '/project-2.jpg',
     github: 'https://github.com/',
     live: 'https://example.com'
   },
