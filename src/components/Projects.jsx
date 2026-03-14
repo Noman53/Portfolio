@@ -24,7 +24,7 @@ const projects = [
     title: 'Chat Application',
     description: 'Real-time chat app with Socket.io and Node.js enabling instant communication between users.',
     tech: ['Socket.io', 'Node.js', 'MongoDB'],
-    image: '/project-2.jpg',
+    image: '/project-3.jpg',
     github: 'https://github.com/',
     live: 'https://example.com'
   },
