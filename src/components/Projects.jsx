@@ -2,6 +2,7 @@
 import React, { useState } from 'react'
 import { motion } from 'framer-motion'
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'
+import { s } from 'framer-motion/client'
 
 const projects = [
   {
@@ -29,12 +30,12 @@ const projects = [
     live: 'https://orebi-e-com.vercel.app/'
   },
   {
-    title: 'E-Commerce App',
-    description: 'Full-featured e-commerce application with product filters, dynamic cart, and payment gateway.',
-    tech: ['React', 'Node.js', 'Express'],
-    image: '/project-2.jpg',
-    github: 'https://github.com/',
-    live: 'https://example.com'
+    title: "Doctor's Portfolio Website",
+    description: 'A responsive website for a local doctor, built with React and Tailwind CSS.',
+    tech: ['React', 'JavaScript', 'Tailwind'],
+    image: '/project-4.jpg',
+    github: 'https://github.com/Noman53/Doctor-s_Website',
+    live: 'https://doctor-muhsin.vercel.app/'
   },
 ]
 
